@@ -15,7 +15,7 @@ public class Point
         this.Steiner = CalculateSteiner(distance);
     }
 
-    public Point(double m,double d) //konstruktor sparametryzowany
+    public Point(double m) //konstruktor sparametryzowany
     {
         if(m>0)
         {
@@ -25,6 +25,7 @@ public class Point
         {
             System.out.println("WRONG mass!!");
         }
+        int d=10;
         if(d>0)
         {
             this.distance = d;
